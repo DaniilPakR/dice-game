@@ -287,6 +287,8 @@ class Validation {
 
 const args = process.argv.slice(2);
 
+//
+
 try {
   Validation.validateArgs(args);
   const diceList = DiceParser.parse(args);
